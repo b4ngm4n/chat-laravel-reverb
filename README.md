@@ -24,11 +24,6 @@ composer install
 php artisan key:generate
 ```
 
-If you using npn you can run this command
-```bash
-# npm install && npm run dev
-```
-
 ### Setup Database
 
 ```bash
@@ -52,3 +47,8 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
+```bash
+npm install && npm run build
+```
+
+Note: node js anda harus sudah versi 20
